@@ -1,0 +1,13 @@
+{
+  "name": "calendario-vvf-push-worker",
+  "version": "1.0.0",
+  "description": "Worker che polla INGV e invia push FCM ai device registrati su Firestore",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.1"
+  }
+}
